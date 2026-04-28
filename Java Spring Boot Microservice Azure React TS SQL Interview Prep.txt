@@ -1,0 +1,320 @@
+-- Java Spring Boot Microservice Azure React TS SQL Interview Prep
+
+-- Questions Asked from 1 Resource.
+
+How OOP made our life easy?
+OOP
+Abstraction
+encapsulation
+ 
+ 
+Heap vs Stack
+GC
+Young Generation / Old Generation -> How Java marks them?
+ 
+ 
+Spring Boot Lifecycle
+Microservcies
+ 
+Deployment types?
+DB Migration in Spring boot (Flyway)
+ 
+Logging and Metrices
+Kafka
+Bean Lifecycle
+ 
+Blue Green Deployment
+
+-- Questions Asked from Other
+
+✅ Java Core
+1. Abstract Class vs Interface
+2. Inheritance vs Composition
+3. Checked vs Unchecked Exceptions
+4. final Keyword (variable, method, class)
+5. What is Immutable in Java?
+6. List vs Set
+7. HashMap vs SortedMap
+8. ArrayList vs LinkedList
+9. Java Streams – What are they?
+10. map() vs flatMap()
+11. Intermediate vs Terminal Operations in Streams
+12. What is Short-Circuiting in Streams?
+✅ SQL
+13. INNER JOIN vs LEFT JOIN
+14. WHERE vs HAVING
+15. Can we use CASE statement in WHERE clause?
+16. Purpose of Indexing
+✅ Design Patterns
+17. Factory Design Pattern
+✅ Multithreading & Concurrency
+18. What is Multithreading?
+19. What is Concurrency?
+20. Difference between Multithreading and Concurrency
+✅ Spring & Spring Boot
+21. Spring vs Spring Boot
+22. @Controller vs @RestController
+23. Dependency Injection (DI)
+24. Circular Dependency in Spring
+25. Spring Security
+26. How do you handle exceptions in Controller?
+✅ Security & API
+27. Authentication vs Authorization
+28. POST vs PUT
+29. JWT vs OAuth Token
+✅ JPA & Hibernate
+30. Hibernate vs JPA
+31. Lazy Loading vs Eager Loading
+✅ Microservices Architecture
+32. What is Loose Coupling in Microservices?
+33. API Gateway
+34. gRPC
+35. Kafka – What is the purpose?
+36. Resilience4J
+37. SAGA Pattern
+✅ Testing & DevOps
+38. Unit Testing
+39. Mockito
+40. SonarCloud
+41. CI/CD
+42. Azure and AWS Experience
+
+-- Questions Asked from Other
+OOP
+React Caching - all ways
+async calls in react and how a request can be cancelled if made or if a user changes page mid way?
+simple dev ops and CORS
+
+Kafka and how it works
+RabbitMQ and how it works
+If we don't use RabbitMQ And Kafka then what else can we use?
+you have 4 env and each of them have seprate url for cqrs where you will store them and use them?
+
+-- Questions Asked from Other
+
+Gateway and how it works. How authentication works at this level.
+How Role Based Authentication works in Spring boot.
+What is Spring Security, how do we implement it and what is the complete flow from request fired, filters, jwt claims, getting the token and then authenticating the token.
+Hibernate its session factory, interface, internal working, 
+in memory cache and then all 3 levels, how they store and work.
+Singleton - thread safe
+sql query to find employee counts from each dept.
+Factory design and where we implemented that in our code.
+SDLC
+SOLID with a random example
+ACID principles in DB.
+
+
+-- QUestions I was asked in interview at the same firm four months back.
+
+Hashing
+Memory Management
+Profiling n Profile Management
+Difference b/w Heap n Stack
+Threading and Thread Management, Thread programming ,
+shallow an deep copies,
+Session management
+ERD for SQL
+Access Modifiers
+Inheritance
+abstraction
+classes
+How memory management is done in java, garbage collector and collection.
+=> Application Architectures
+=> Component Model
+ 
+=> Databases
+	1. SQL
+	2. MySQL
+=> Data Sctructures
+=> Algorithms
+ 
+=> Java Frameworks
+	1. Hibernate
+	2. J2EE
+	3. Spring boot
+ 
+=> Design Patterns
+=> Multi threading
+=> Frontend (React) minor portion [can mostly just be javascript]
+
+1.  Types of Spring Beans
+2.  What happens if we define different beans with same return type
+3.  what is the difference b/w Controller and RestController, also what is @Component and @SpringBoot.
+4.  Return type of flatMap, map, filter.
+5.  Is Java Stream an interface or a class.
+6.  How java stores strings
+7.  ?? and || in React.
+8.  how does Java manages garbase collection and how it handles JVM.
+9.  what is IOC and how does dependency injection works in Spring boot.
+10. Loose Coupling and Tight Coupling
+11. What is the default method provided by Java Interface.
+12. Can we use a map to filter out items in a stream or not.
+13. What is the functional interface in java
+14. What classes are being used by Streams and Collections API.
+15. Difference b/w array and ArrayList.
+16. How does @JoinColumn Annotation works in General and how to use @JoinTable with Many to Many.
+17. What ORM does Spring boot uses and how it maps to table in databases.
+18. why do we have e.preventDefault() on react forms submissions.
+19. What is event bubbling in react.
+20. Props drilling and uplifting in react.
+21. Can we use this. [to refer an item] inside an arrow function
+22. What is the difference b/w an arrow and a normal function
+23. Define @Bean Annotation and how a bean can be used.
+24. Types of way in which we can handle promises
+25. Promises, callbacks, async/awaits.
+26. If a function C needs to be awaited and is being used Inside a function B and we have to await that and further more B is inside A and that also has to be awaited, having two redundant awaits on A and B in React, how can you tackle it.
+27. Difference b/w a = 'java', b = 'java', c = new String('java), a == b, a == c, a.equals(b), a.equals(c)
+28. Redux Dispatch and Reducers
+29. SQL: can we update a value on runtime in an already defined enum?
+30. Difference b/w map and flatmap.
+31. equals is a method of what Class.
+32. How does java handles String inside heap.
+33. How can we use primitive types in java collections and how will you convert an array of int to an arraylist.
+34. How to define custom database queries in Spring boot.
+35. Why cannot java extend to multiple classes.
+36. we have two classes A and B, where A extends B. Can a child assign their object to parent and vice versa.
+37. If we have a method that takes super class type as a parameter, can it work with objects of its subclass type in java.
+38. How to handle the scenerio of two threads that need to update the same data structure.
+39. Checked and un checked expressions
+40. Can we override equals and hashcode methods.
+41. How do you handle rate limiting on APIs.
+42. Let's say in micro services you have two services, one is up and another one is down, so the call made to down service will be lost, how do you manage it.
+43. They asked me about, kafka, Docker etc but I haven't used them so no idea.
+44. Difference b/w SQL and No SQL Database and also about how mongodb works.
+45. Writing a stored procedure to fetch data from an external database.
+46. How do you manage your Juniors.
+47. What steps did you take to optimize your code as mentioned in Resume.
+48. What is useEffect and how it effects the rendering of component in which it is being used, also tell me about its dependency array usage.
+49. Custom Hooks in React.
+50. How can you manage the response of a Promise in React.
+51. What is returned by Java Streams map and filter
+52. how does stream uses functional interface in it.
+
+
+
+
+Tell me about databases
+what database is best for user chat app
+how is jwt signed and then how it is verified
+
+Database (Sql maybe they'll ask for No SQL)
+1. ACID
+2. Transactions
+3. Indexes
+4. Joins
+5. Keys
+6. Example queries can be like max salary from table, Group By some id or field etc
+
+Algorithms
+1. Basic Sorting and Searching Algorithms
+2. Linked List (circular, singly, doubly, reverse it)
+3. HashMaps
+4. Sets n Queues
+5. Array and ArrayList
+6. LinkedList and ArrayList
+7. How does hashmap stores keys, how is the hash generated, what is collision in hashmap
+8. Basic Sorting and Searching algos and maybe thier time complexity...
+Fibonacci
+Convert Number to String
+Anagrams
+Palindrome
+swap without 3rd variable
+
+Runtime and compile time polymorphism
+deafult vs protected access modifier.
+
+Public, Private, Protected access levels in different classes, different packages and nested classes
+final classes, static classes, variables and functions
+Equals and Hashcode
+Garbage Collector, its frame works and do we have to trigger it manuallly?
+
+What is TreeSet and HashSet. When we will use one over other?
+HashSet vs HashMap
+
+Design Patterns
+1. Strategy Pattern
+
+checke and unchecked exceptions
+ifa  dashbaord is providing realtime analytics, how can we optimize backend
+hashmap vs concurrent hashmap
+
+
+
+--
+Questions I was asked
+--
+
+1. SOLID Principles
+2. What is ORM and how it works?
+3. SQL Joins and types of joins
+4. Database Locks. Optimistic vs Pessimistic Locking
+5. What if a flow is triggered in a microservices pattern that moves accross 2 different services. Let's say service A and service B, and service A is up but service B is down, so the call made to service B will be lost, how do you manage it. how will the changes made in Service A will be rolledback?
+6. What is a Cache and Caching. Difference b/w in-memory cache and distributed cache. What are the different caching strategies?
+7. Pros and Cons of using Redis & In Memory cache overeach other. Implement both.
+	-> Also, what if 2 microservices are using a same cache, how will you manage the cache consistency so that both services have the same data?
+8. What are Reflections in Java, how do they work & why do we use them?
+9. What are the different deployment strategies for microservices? (tell about Blue Green, Canary, Rolling)
+10. How does profiling work in SPring boot applications? What are the different tools you can use for profiling and monitoring a Spring boot application?
+11. In a spring boot application, how do you manage the application properties for different environments? How do you manage sensitive data like database credentials in application properties? Also what are the different ways you can setup properties for different environments?
+12. What is the difference b/w @Component, @Service, @Repository and @Controller annotations in Spring boot?
+13. What is the difference b/w @RestController and @Controller annotations in Spring boot?
+14. What is Dependency Injection and how does it work in Spring boot? What are the different types of Dependency Injection in Spring boot?
+15. What is Circular Dependency in Spring boot and how do you resolve it?
+16. What is @Qualifier annotation in Spring boot and how do you use it?
+17. What is @Primary annotation in Spring boot and how do you use it?
+18. What is @Bean in Spring boot and how do you use it?
+	-> Lifecycle of a Bean in Spring boot
+	-> What is the default scope of a Bean in Spring boot?
+	-> What are the different scopes of a Bean in Spring boot?
+	-> What is the design pattern on which a spring bean works?
+	-> How do you create a Bean in Spring boot & can a spring bean be destroyed earlier before the application shuts down?
+19. What happens when a Controller class with @Controller annotation is repalced with @Service annotation? What will be the impact on the application?
+20. What happens when a Service class with @Service annotation is repalced with @Controller annotation? What will be the impact on the application?
+21. @PostConstruct and @PreDestroy annotations in Spring boot and how do they work?
+22. What is Spring Security and how do you implement it in a Spring boot application? What is the complete flow of authentication and authorization in Spring Security?
+23. What is Role Based Authentication and how do you implement it in Spring Security?
+24. What is JWT and how do you implement it in Spring Security? What is the complete flow of JWT authentication and authorization in Spring Security?
+25. What is OAuth and how do you implement it in Spring Security? What is the complete flow of OAuth authentication and authorization in Spring Security?
+26. What is the difference b/w JWT and OAuth tokens?
+27. Scenerio Based: Let's say you have 2 service classes A and B. A is synchronous and B is Async. How will the dependency injection work here if you have to inject A into B or B into A?
+28. What do you know about Saga Pattern in Microservices? How do you implement it in Spring boot?
+29. What is Resilience4J and how do you implement it in Spring boot? What are the different features of Resilience4J?
+30. What is API Gateway and how do you implement it in Spring boot? What are the different features of API Gateway?
+31. What is gRPC and how do you implement it in Spring boot? What are the different features of gRPC?
+32. What is Circuit breaker and fault tolerance?
+33. What is Rate Limiting and how do you implement it in Spring boot?
+34. What is a thread pool? Heap vs Pool vs stack?
+35. Without Access Modifiers, achieve Encapsulation in Java.
+36. What is constructor overload and is it a compile time or runtime polymorphism?
+37. Tell me about Hibernate's Commit, save & flush method. 
+38. Difference b/w Abstract class and Interface in Java. Can we have a constructor in an abstract class? Can we have a constructor in an interface?
+39. Difference b/w Inheritance and Composition in Java. Which one is better and why?
+40. Difference b/w Checked and Unchecked Exceptions in Java. Which one is better and why?
+41. What is the final keyword in Java? What is the difference b/w final variable, final method and final class in Java?
+42. What is an Immutable class in Java? How do you create an Immutable class in Java?
+43. How does inheritance works in Microservices application?
+44. Let's say you have to break a monolith application into a Microservices application. what steps will you take?
+45. What is Loose Coupling in Microservices and how do you achieve it?
+46. OOP, Access Modifiers & Constructors. How are classes inherting loosely coupled?
+47. Spring Pooling & Profiling.
+48. Can a child class accessing the parent class override it's constructor? Can a child class access the parent class private constructor?
+49. What is the difference b/w Partitioning vs Sharding in Databases?
+50. gRPCS vs REST APIs?
+51. CAP Theoram
+52. Rabbit MQ? What is it and how do you implement it in Spring boot? What are the different features of Rabbit MQ?
+53. Horizonatal vs Vertical Scaling.
+54. How are Strings stored in Java? What is the String pool in Java?
+55. What is the difference b/w == and equals() method in Java? Can you give me an example where == and equals() will give different results?
+56. What is the difference b/w map() and flatMap() methods in Java Streams? Can you give me an example where map() and flatMap() will give different results?
+57. What is the difference b/w intermediate and terminal operations in Java Streams? Can you give me an example of each?
+58. What is short-circuiting in Java Streams? Can you give me an example of short-circuiting in Java Streams?
+59. What is a Stream in Java and why do we use it? Is Stream an interface or a class in Java?
+60. What is a functional interface and why does it only have one abstract method? Can you give me an example of a functional interface in Java?
+61. What are TVFs in SQL.
+62. What are indexes in SQL and how do they work? What are the different types of indexes in SQL? How is an index evaluated and how does it improve the performance of SQL queries?
+63. Hibernate Sessions and Session Factory. What is the internal working of Hibernate Session and Session Factory? What is the first level cache in Hibernate and how does it work? What are the different levels of cache in Hibernate and how do they work?
+64. What is the difference b/w a HashMap and a ConcurrentHashMap in Java?
+65. What is a hashmap and how does it work internally? How is the hash generated for a key in a hashmap? What is a collision in a hashmap and how does a hashmap handle collisions?
+66. ArrayList vs LinkedList in Java. What is the difference b/w an ArrayList and a LinkedList in Java? Which one is better and why?
+
